@@ -77,3 +77,5 @@ Example: Calculating total sales per day or most popular products.<br>
 Unlike the Source or Silver layers, Gold often "flattens" data. Instead of looking up a customer_id, the Gold table includes the full customer_name_upper and contact details directly in the reporting table to reduce the need for expensive runtime joins.
 <img width="1706" height="906" alt="image" src="https://github.com/user-attachments/assets/b3568c2b-af59-4e34-b011-cd3c30f783eb" />
 
+![Data Modelling Databricks zip file](./DataModelling.dbc) includes Source, Bronze, Silver, Gold, SCD Notebooks. 
+The same is also uploaded as individual HTML files.
