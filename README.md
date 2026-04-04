@@ -1,5 +1,6 @@
 <h1>ETL Medallion Architecture</h1>
-### Main Pipeline Logic: 
+
+Main Pipeline Logic: 
 The primary flow (Source to Bronze to Silver to Gold) focuses on building a Star Schema using a sales dataset. In this main flow, the Silver layer uses a standard MERGE (Upsert) which effectively acts like an SCD Type 1 (overwriting old data). 
 The Slowly Changing Dimensions (SCD) implementation is handled as a separate to dive deep, self-contained module rather than being integrated into the main end-to-end sales data pipeline.
 
